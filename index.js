@@ -28,5 +28,5 @@ const studentRoute = require('./routes/student');
 app.use("/students",studentRoute)
 
 
-app.listen(config.port);
+//app.listen(config.port);
 console.log(`App running on port ${config.port}`)
